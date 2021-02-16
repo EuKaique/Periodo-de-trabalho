@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
+    
 </head>
 <body>
     <div id="conteudo">
@@ -16,12 +17,15 @@
         <img src="../image/homem-trabalhador.png" alt="logo">
         <hr>
         <h4 class="entrada">Horário de entrada:</h4>
-        <input type="time" name="H-entrada" class="H-entrada" required><br><br><br><br>
+        <input type="time" name="H-entrada" class="H-entrada" value="08:00" required><br><br><br><br>
         <h4 class="saida">Horário de saída:</h4>
-        <input type="time" name="H-saida" class="H-saida" required><br>
-        <button class="calcular">Calcular</button>
+        <input type="time" name="H-saida" class="H-saida" value="17:00" required><br>
+        <input type="button" class="calcular" value="Calcular" onclick="Calcular()">
         <hr>
+        <div id="resultado">
+            <h5>Resultado:</h5>
+        </div>
     </div>
 </body>
-    <script src="/src/javascript/script.js"></script>
+    <script src="../javascript/script.js"></script>
 </html>
