@@ -17,15 +17,19 @@
         <img src="../image/homem-trabalhador.png" alt="logo">
         <hr>
         <h4 class="entrada">Horário de entrada:</h4>
-        <input type="time" name="H-entrada" class="H-entrada" value="08:00" required><br><br><br><br>
+        <input type="time" name="Hentrada" id="Hentrada" required><br><br><br><br>
         <h4 class="saida">Horário de saída:</h4>
-        <input type="time" name="H-saida" class="H-saida" value="17:00" required><br>
+        <input type="time" name="Hsaida" id="Hsaida" required><br><br><br>
         <input type="button" class="calcular" value="Calcular" onclick="Calcular()">
         <hr>
         <div id="resultado">
-            <h5>Resultado:</h5>
+            <br><br>
+            <div id="msg1"></div>
+            <br>
+            <div id="msg2"></div>
         </div>
     </div>
 </body>
-    <script src="../javascript/script.js"></script>
+    <script src="../javascript/calculo.js"></script>
+    <script src="https://momentjs.com/downloads/moment-with-locales.min.js"></script>
 </html>

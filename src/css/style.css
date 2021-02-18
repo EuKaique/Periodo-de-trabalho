@@ -35,30 +35,54 @@ h4{
     font-weight: normal;
     margin-right: 5px;
 }
-input.H-entrada{
+input#Hentrada{
     margin-top: 25px;
     border-radius: 4px;
     height: 30px;
-    width: 80px;
+    width: 95px;
+    font-size: 1.1rem;
     border: none;
     float: left;
     cursor: pointer ;
 }
-input.H-saida{
+input#Mentrada{
+    margin-top: 25px;
+    margin-left: 10px;
+    border-radius: 4px;
+    height: 30px;
+    width: 55px;
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer ;
+}
+input#Hsaida{
     margin-top: 25px;
     margin-left: 18px;
     border-radius: 4px;
     height: 30px;
-    width: 80px;
+    width: 95px;
+    font-size: 1.1rem;
     border: none;
     float: left;
-    cursor: pointer;
+    cursor: pointer ;
+}
+input#Msaida{
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 4px;
+    height: 30px;
+    width: 55px;
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer ;
 }
 input.calcular{
     color: rgb(66, 66, 66);
     background:rgba(240, 248, 255, 0.5);
-    margin-top: 80px;
-    align-content: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    float: none;
+    margin-left: 80px;
     height: 40px;
     width: 80px;
     font-size: 0.9rem;
@@ -69,8 +93,18 @@ input.calcular{
 input.calcular:hover{    
     border: none;
 }
-div#resultado{
-    margin-top: 40px;
-    text-align: center;
+div#resultado h4{
+    margin-top: 20px;
+    margin-left: 250px;
+    color: rgba(0, 0, 0, 0.404);
+}
+div#msg1{
+    font-size: medium;
+    margin-left: 80px;
+    color: rgba(0, 0, 0, 0.404);
+}
+div#msg2{
+    font-size: medium;
+    margin-left: 230px;
     color: rgba(0, 0, 0, 0.404);
 }
