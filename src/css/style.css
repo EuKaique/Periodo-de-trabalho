@@ -6,105 +6,283 @@ body{
     background-image: linear-gradient(65deg, white, rgb(0, 87, 128));
 }
 div#conteudo{
-    margin-left: 300px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    padding: 90px;
-    height: 350px;
-    width: 550px;
+    margin-left: 18.750em;
+    margin-top: 1.250em;
+    margin-bottom: 1.875em;
+    padding: 5.625em;
+    height: 21.875em;
+    width: 34.375em;
     background-color: rgba(240, 248, 255, 0.5);
-    border-radius: 8px;
+    border-radius: 0.500em;
 }
-label{
+label.titulo{
     font-size: 1.6rem;
     color: rgba(255, 255, 255, 0.699);
     margin-left: 160px;
 }
 img{
-    margin-top: -60px;
-    margin-left: 400px;
+    margin-top: -3.750em;
+    margin-left: 25.000em;
 }
 hr{
     width: 100%;
     border-color: rgba(240, 248, 255, 0.226);
 }
-h4{
+label.entrada{
     font-size: 1.2rem;
     color: white;
     float: left;
     font-weight: normal;
-    margin-right: 5px;
+    margin-right: 0.313em;
+    margin-top: 0.938em;
 }
 input#Hentrada{
-    margin-top: 25px;
-    border-radius: 4px;
-    height: 30px;
-    width: 95px;
+    margin-top: 0.813em;
+    border-radius: 0.250em;
+    height: 1.875em;
+    width: 5.938em;
     font-size: 1.1rem;
     border: none;
     float: left;
     cursor: pointer ;
 }
-input#Mentrada{
-    margin-top: 25px;
-    margin-left: 10px;
-    border-radius: 4px;
-    height: 30px;
-    width: 55px;
-    font-size: 1.1rem;
-    border: none;
-    cursor: pointer ;
+label.saida{
+    font-size: 1.2rem;
+    color: white;
+    float: left;
+    font-weight: normal;
+    margin-right: 0.313em;
 }
 input#Hsaida{
-    margin-top: 25px;
-    margin-left: 18px;
-    border-radius: 4px;
-    height: 30px;
-    width: 95px;
+    margin-top: -0.188em;
+    margin-left: 1.125em;
+    border-radius: 0.250em;
+    height: 1.875em;
+    width: 5.938em;
     font-size: 1.1rem;
     border: none;
     float: left;
-    cursor: pointer ;
-}
-input#Msaida{
-    margin-top: 15px;
-    margin-left: 10px;
-    border-radius: 4px;
-    height: 30px;
-    width: 55px;
-    font-size: 1.1rem;
-    border: none;
     cursor: pointer ;
 }
 input.calcular{
     color: rgb(66, 66, 66);
     background:rgba(240, 248, 255, 0.5);
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin-top: 2.500em;
+    margin-bottom: 1.250em;
     float: none;
-    margin-left: 80px;
-    height: 40px;
-    width: 80px;
+    margin-left: 15.625em;
+    height: 2.500em;
+    width: 5.000em;
     font-size: 0.9rem;
-    border-radius: 4px;
+    border-radius: 0.250em;
     border: outset;
     cursor: pointer;
 }
 input.calcular:hover{    
     border: none;
 }
-div#resultado h4{
-    margin-top: 20px;
-    margin-left: 250px;
+div#resultado {
+    margin-top: 1.250em;
+    margin-left: 15.625em;
     color: rgba(0, 0, 0, 0.404);
 }
 div#msg1{
     font-size: medium;
-    margin-left: 80px;
+    margin-left: 5.000em;
     color: rgba(0, 0, 0, 0.404);
 }
 div#msg2{
     font-size: medium;
-    margin-left: 230px;
+    margin-left: 14.375em;
     color: rgba(0, 0, 0, 0.404);
+}
+/*DISPLAY PARA CELULARES*/
+/*MOTO G4 E GALAXY S5*/
+@media screen and (min-device-width: 360px) and (max-device-height: 640px){
+    body{
+        font-family: 'Roboto', sans-serif;
+        background-image: linear-gradient(65deg, rgb(0, 87, 128), white);
+    }
+    div#conteudo{
+        margin-left: 0.438em;
+        margin-top: 1.250em;
+        margin-bottom: 5.650em;
+        padding: 2.500em;
+        height: 28.125em;
+        width: 15.625em;
+        background-color: rgba(240, 248, 255, 0.5);
+        border-radius: 0.500em;
+    }
+    label.titulo{
+        font-size: 1.6rem;
+        color: rgba(255, 255, 255, 0.699);
+        margin-left: 0px;
+    }   
+    img{
+        margin-top: -4.375em;
+        margin-left: 14.063em;
+    }
+    hr{
+        width: 100%;
+        border-color: rgba(240, 248, 255, 0.226);
+    }
+    label.entrada{
+        font-size: 1rem;
+        color: white;
+        float: left;
+        font-weight: normal;
+        margin-right: 0.313em;
+    }
+    input#Hentrada{
+        margin-top: 0.938em;
+        border-radius: 0.250em;
+        height: 1.875em;
+        width: 5.938em;
+        font-size: 1.1rem;
+        border: none;
+        float: left;
+        cursor: pointer ;
+    }
+    label.saida{
+        font-size: 1rem;
+        color: white;
+        float: left;
+        font-weight: normal;
+        margin-right: 0.313em;
+    }
+    input#Hsaida{
+        margin-top: 0.938em;
+        margin-left: 0.938em;
+        border-radius: 0.250em;
+        height: 1.875em;
+        width: 5.938em;
+        font-size: 1.1rem;
+        border: none;
+        float: left;
+        cursor: pointer ;
+    }
+    input.calcular{
+        color: rgb(66, 66, 66);
+        background:rgba(240, 248, 255, 0.5);
+        margin-top: 3.125em;
+        margin-bottom: 3.125em;
+        float: none;
+        margin-left: 6.500em;
+        height: 2.500em;
+        width: 5.000em;
+        font-size: 0.9rem;
+        border-radius: 0.250em;
+        border: outset;
+        cursor: pointer;
+    }
+    input.calcular:hover{    
+        border: none;
+    }
+    div#resultado label{
+        margin-top: 1.250em;
+        margin-left: 15.625em;
+        color: rgba(102, 84, 84, 0.404);
+    }
+    div#msg1{
+        font-size: medium;
+        margin-left: -1.250em;
+        color: rgba(0, 0, 0, 0.404);
+    }
+    div#msg2{
+        font-size: medium;
+        margin-left: 2.500em;
+        color: rgba(0, 0, 0, 0.404);
+    }
+}
+/*IPHONE 5/SE*/
+@media screen and (min-device-width: 320px) and (max-device-height: 568px){
+    body{
+        font-family: 'Roboto', sans-serif;
+        background-image: linear-gradient(65deg, rgb(0, 87, 128), white);
+    }
+    div#conteudo{
+        margin-left: 5px;
+        margin-top: 20px;
+        margin-bottom: 18px;
+        padding: 40px;
+        height: 450px;
+        width: 210px;
+        background-color: rgba(240, 248, 255, 0.5);
+        border-radius: 8px;
+    }
+    label.titulo{
+        font-size: 1.3rem;
+        color: rgba(255, 255, 255, 0.699);
+        margin-left: 0px;
+    }   
+    img{
+        margin-top: -50px;
+        margin-left: 190px;
+        width: 48px;
+        height: 48px;
+    }
+    hr{
+        width: 100%;
+        border-color: rgba(240, 248, 255, 0.226);
+    }
+    label{
+        font-size: 1rem;
+        color: white;
+        float: left;
+        font-weight: normal;
+        margin-right: 5px;
+    }
+    input#Hentrada{
+        margin-top: 18px;
+        border-radius: 4px;
+        height: 30px;
+        width: 75px;
+        font-size: 1.1rem;
+        border: none;
+        float: left;
+        cursor: pointer ;
+    }
+    input#Hsaida{
+        margin-top: 18px;
+        margin-left: -1px;
+        border-radius: 4px;
+        height: 30px;
+        width: 75px;
+        font-size: 1.1rem;
+        border: none;
+        float: left;
+        cursor: pointer ;
+    }
+    input.calcular{
+        color: rgb(66, 66, 66);
+        background:rgba(240, 248, 255, 0.5);
+        margin-top: 80px;
+        margin-bottom: 50px;
+        float: none;
+        margin-left: 0px;
+        height: 40px;
+        width: 80px;
+        font-size: 0.9rem;
+        border-radius: 4px;
+        border: outset;
+        cursor: pointer;
+    }
+    input.calcular:hover{    
+        border: none;
+    }
+    div#resultado label{
+        margin-top: 20px;
+        margin-left: 250px;
+        color: rgba(102, 84, 84, 0.404);
+    }
+    div#msg1{
+        font-size: medium;
+        margin-left: -20px;
+        color: rgba(0, 0, 0, 0.404);
+    }
+    div#msg2{
+        font-size: medium;
+        margin-left: 40px;
+        color: rgba(0, 0, 0, 0.404);
+    }
 }

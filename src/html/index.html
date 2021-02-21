@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no, user-scalable=0">
     <title>Período de trabalho</title>
     <link rel="icon" href="../image/homem-trabalhador-icone.png">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -13,12 +13,12 @@
 </head>
 <body>
     <div id="conteudo">
-        <label>Período de trabalho</label>
+        <label class="titulo">Período de trabalho</label>
         <img src="../image/homem-trabalhador.png" alt="logo">
         <hr>
-        <h4 class="entrada">Horário de entrada:</h4>
+        <label class="entrada">Horário de entrada:</label>
         <input type="time" name="Hentrada" id="Hentrada" required><br><br><br><br>
-        <h4 class="saida">Horário de saída:</h4>
+        <label class="saida">Horário de saída:</label>
         <input type="time" name="Hsaida" id="Hsaida" required><br><br><br>
         <input type="button" class="calcular" value="Calcular" onclick="Calcular()">
         <hr>
@@ -31,5 +31,4 @@
     </div>
 </body>
     <script src="../javascript/calculo.js"></script>
-    <script src="https://momentjs.com/downloads/moment-with-locales.min.js"></script>
 </html>
