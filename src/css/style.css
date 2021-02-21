@@ -6,23 +6,27 @@ body{
     background-image: linear-gradient(65deg, white, rgb(0, 87, 128));
 }
 div#conteudo{
-    margin-left: 18.750em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 1.250em;
-    margin-bottom: 1.875em;
-    padding: 5.625em;
+    margin-bottom: auto;
+    padding: 100px 100px;
     height: 21.875em;
-    width: 34.375em;
+    width: 50%;
     background-color: rgba(240, 248, 255, 0.5);
     border-radius: 0.500em;
 }
 label.titulo{
+    display: block;
     font-size: 1.6rem;
     color: rgba(255, 255, 255, 0.699);
-    margin-left: 160px;
+    margin-left: 40%;
 }
 img{
     margin-top: -3.750em;
-    margin-left: 25.000em;
+    margin-left: auto;
+    display: block;
 }
 hr{
     width: 100%;
@@ -70,7 +74,7 @@ input.calcular{
     margin-top: 2.500em;
     margin-bottom: 1.250em;
     float: none;
-    margin-left: 15.625em;
+    margin-left: 50%;
     height: 2.500em;
     width: 5.000em;
     font-size: 0.9rem;
@@ -86,14 +90,15 @@ div#resultado {
     margin-left: 15.625em;
     color: rgba(0, 0, 0, 0.404);
 }
-div#msg1{
+div#msg1 {
     font-size: medium;
-    margin-left: 5.000em;
+    margin-left: -120px;
+    margin-top: -40px;
     color: rgba(0, 0, 0, 0.404);
 }
 div#msg2{
     font-size: medium;
-    margin-left: 14.375em;
+    margin-left: 40px;
     color: rgba(0, 0, 0, 0.404);
 }
 /*DISPLAY PARA CELULARES*/
@@ -185,12 +190,12 @@ div#msg2{
     }
     div#msg1{
         font-size: medium;
-        margin-left: -1.250em;
+        margin-left: -270px;
         color: rgba(0, 0, 0, 0.404);
     }
     div#msg2{
         font-size: medium;
-        margin-left: 2.500em;
+        margin-left: -170px;
         color: rgba(0, 0, 0, 0.404);
     }
 }
@@ -277,12 +282,12 @@ div#msg2{
     }
     div#msg1{
         font-size: medium;
-        margin-left: -20px;
+        margin-left: -270px;
         color: rgba(0, 0, 0, 0.404);
     }
     div#msg2{
         font-size: medium;
-        margin-left: 40px;
+        margin-left: -190px;
         color: rgba(0, 0, 0, 0.404);
     }
 }
