@@ -5,5 +5,5 @@
  
  
  ##### O período diurno é de 20 reais por hora e o noturno 40 reais por hora.
- ###### * Diurno = 05:00h as 22:00h
- ###### * Noturno = 22:00 as 05:00h
+* Diurno = 05:00h as 22:00h
+* Noturno = 22:00 as 05:00h
